@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Birthday Surprise</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<section id="page1">
+
+    <div id="stars"></div>
+
+    <div class="container">
+
+        <div class="terminal">
+
+            <div class="terminal-header">
+
+    <div class="dot red"></div>
+    <div class="dot yellow"></div>
+    <div class="dot green"></div>
+
+    <span>🟢 SYSTEM ONLINE</span>
+
+</div>
+
+<h1 class="protocol-title">
+    🎂 BIRTHDAY PROTOCOL
+</h1>
+
+            <div id="ai-text"></div>
+
+            <div class="progress-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+
+            <div id="percentage">0%</div>
+
+            <button id="startBtn" style="display:none;">
+                💙 Open My Birthday Message
+            </button>
+
+        </div>
+
+</div>
+
+</section>
+
+<!-- ================= PAGE 2 ================= -->
+
+<section id="page2" style="display:none;">
+
+    <div class="container">
+
+        <div class="terminal">
+
+            <div class="terminal-header">
+
+                <div class="dot red"></div>
+                <div class="dot yellow"></div>
+                <div class="dot green"></div>
+
+                <span>🟢 SYSTEM ONLINE</span>
+
+            </div>
+
+            <h1 class="protocol-title">
+                ❤️ IDENTITY REVEAL
+            </h1>
+
+            <div id="identity-text"></div>
+
+            <button id="continueBtn" style="display:none;">
+                💙 Continue
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PAGE 3: WHY THIS JOURNEY EXISTS -->
+<section id="page3" style="display: none;">
+    <div class="container">
+        <div class="terminal">
+
+            <div class="terminal-header">
+                <div class="dot red"></div>
+                <div class="dot yellow"></div>
+                <div class="dot green"></div>
+                <span>💙 MEMORY SYSTEM ONLINE</span>
+            </div>
+
+            <h1 class="protocol-title">
+                💙 WHY THIS JOURNEY EXISTS
+            </h1>
+
+            <div id="story-text"></div>
+
+            <button id="archiveBtn" style="display: none;">
+                📸 Open Memory Archive
+            </button>
+
+        </div>
+    </div>
+</section>
+
+<!-- PAGE 4: MEMORY ARCHIVE -->
+<section id="page4" style="display: none;">
+    <div class="container">
+        <div class="terminal">
+
+            <div class="terminal-header">
+                <div class="dot red"></div>
+                <div class="dot yellow"></div>
+                <div class="dot green"></div>
+                <span>💙 MEMORY ARCHIVE UNLOCKED</span>
+            </div>
+
+            <h1 class="protocol-title">
+                📸 OUR MEMORY ARCHIVE
+            </h1>
+
+            <p class="memory-intro">
+                Eight photos. Countless feelings.
+                One bond that means so much. ❤️
+            </p>
+
+            <div class="photo-gallery">
+
+                <div class="photo-card">
+                    <img src="photos/photo1.jpg" alt="Memory 1">
+                    <p>One of my favourite memories with you. 💙</p>
+                </div>
+
+                <div class="photo-card">
+                    <img src="photos/photo2.jpg" alt="Memory 2">
+                    <p>The moments that make us laugh. 😂</p>
+                </div>
+
+                <div class="photo-card">
+                    <img src="photos/photo3.jpg" alt="Memory 3">
+                    <p>A little moment, a forever memory. ✨</p>
+                </div>
+
+                <div class="photo-card">
+                    <img src="photos/photo4.jpg" alt="Memory 4">
+                    <p>Some bonds are simply special. 🤝</p>
+                </div>
+
+                <div class="photo-card">
+                    <img src="photos/photo5.jpg" alt="Memory 5">
+                    <p>A memory I'll always keep close. ❤️</p>
+                </div>
+
+                <div class="photo-card">
+                    <img src="photos/photo6.jpg" alt="Memory 6">
+                    <p>Another chapter in our story. 🌟</p>
+                </div>
+
+                <div class="photo-card">
+                    <img src="photos/photo7.jpg" alt="Memory 7">
+                    <p>Our silly moments are precious too. 😜</p>
+                </div>
+
+                <div class="photo-card">
+                    <img src="photos/photo8.jpg" alt="Memory 8">
+                    <p>And this memory deserves a special place. 💙</p>
+                </div>
+
+            </div>
+
+            <button id="specialBtn">
+                ❤️ Discover What Makes You Special
+            </button>
+
+        </div>
+    </div>
+</section>
+
+<!-- PAGE 5: WHAT MAKES YOU SPECIAL -->
+<section id="page5" style="display: none;">
+    <div class="container">
+        <div class="terminal">
+
+            <div class="terminal-header">
+                <div class="dot red"></div>
+                <div class="dot yellow"></div>
+                <div class="dot green"></div>
+                <span>❤️ PERSONALITY FILE UNLOCKED</span>
+            </div>
+
+            <h1 class="protocol-title">
+                💙 WHAT MAKES YOU SPECIAL
+            </h1>
+
+            <div id="special-text"></div>
+
+            <button id="letterBtn" style="display: none;">
+                💌 Open My Letter
+            </button>
+
+        </div>
+    </div>
+</section>
+
+<!-- PAGE 6: LETTER FROM MY HEART -->
+<section id="page6" style="display: none;">
+    <div class="container">
+        <div class="terminal">
+
+            <div class="terminal-header">
+                <div class="dot red"></div>
+                <div class="dot yellow"></div>
+                <div class="dot green"></div>
+                <span>💌 A MESSAGE FROM SHARUMITHA VIJAYAKUMAR</span>
+            </div>
+
+            <h1 class="protocol-title">
+                💙 A LETTER FROM MY HEART
+            </h1>
+
+            <div id="letter-text"></div>
+
+            <button id="finalBtn" style="display: none;">
+                🎁 Open Your Final Surprise
+            </button>
+
+        </div>
+    </div>
+</section>
+
+<!-- PAGE 7: THE FINAL SURPRISE -->
+<section id="page7" style="display: none;">
+    <div class="container">
+        <div class="terminal">
+
+            <div class="terminal-header">
+                <div class="dot red"></div>
+                <div class="dot yellow"></div>
+                <div class="dot green"></div>
+                <span>🎁 FINAL SURPRISE UNLOCKED</span>
+            </div>
+
+            <h1 class="protocol-title">
+                🎂 HAPPY BIRTHDAY! ❤️
+            </h1>
+
+            <div id="final-text"></div>
+
+            <div class="final-photo" id="finalPhoto" style="display: none;">
+                <img src="photos/photo6.jpg" alt="Our special memory">
+            </div>
+
+            <div id="signature">
+                Made with endless love by<br>
+                <strong>SharumithaVijayakumar, your sister❤️</strong>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+<audio id="backgroundMusic" loop>
+    <source src="./Audio/Sid-Sriram-Mashup.mp3" type="audio/mpeg">
+</audio>
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
